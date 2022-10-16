@@ -728,4 +728,8 @@ a.nav_mid_st{
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.modal_icon_close:hover {
+    fill: var(--accent-color);
+}
+
  /*======================== MODAL WINDOW ===================================*/
