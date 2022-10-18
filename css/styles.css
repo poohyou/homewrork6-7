@@ -707,7 +707,7 @@ a.nav_mid_st{
 
     width: 528px;
     min-height: 581px;
-    padding: 8px 12px;
+    padding: 40px;
 
 
     background: #FFFFFF;
@@ -732,4 +732,98 @@ a.nav_mid_st{
     fill: var(--accent-color);
 }
 
+.modal_top_text {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    margin-bottom: 12px;
+}
+.contact_name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.user_name_text {
+    margin-bottom: 4px;
+}
+
+.user_name {
+    height: 40px;
+    padding-left: 42px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.contact_tel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.user_tel_text {
+    margin-bottom: 4px;
+}
+
+.user_tel {
+    height: 40px;    
+    padding-left: 42px;
+  padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.contact_email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.user_email_text {
+    margin-bottom: 4px;
+}
+
+.user_email {
+    height: 40px;
+    padding-left: 42px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.modal_coment {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal_coment_area {
+    height: 120px;
+    resize: none;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+}
+
+.modal_agree {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.modal_agree_text {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.modal_button_submit {
+   display: block;
+   margin: auto;
+
+    border: 0;
+    padding: 0;
+}
  /*======================== MODAL WINDOW ===================================*/
