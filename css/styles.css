@@ -64,6 +64,17 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
 /* =============================HEADER SECTION ============================*/
 /* LOGO */
 .conteiner_header {
@@ -694,10 +705,7 @@ a.nav_mid_st{
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-/* .backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-} */
+
 .modal {
     position: absolute;
     top: 50%;
@@ -714,6 +722,7 @@ a.nav_mid_st{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
+
 .modal_icon_close {
     position: absolute;
     right: 12px;
@@ -726,6 +735,8 @@ a.nav_mid_st{
 
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_icon_close:hover {
@@ -740,20 +751,22 @@ a.nav_mid_st{
     line-height: 1.15;
     margin-bottom: 12px;
 }
-.contact_name {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
+
 
 .user_name_text {
-    margin-bottom: 4px;
+    display: inline-block;
     font-size: 12px;
     line-height: 1.16;
     color: var(--primary-text-color);
+    margin-bottom: 4px;
 }
+
+
+
 .user_name_relative {
     position: relative;
+    display: inline-block;
+    width: 100%;
 }
 
 .user_name {
@@ -771,6 +784,9 @@ a.nav_mid_st{
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .user_name:focus{
@@ -786,6 +802,9 @@ a.nav_mid_st{
     position: absolute;
     left: 12px;
     top: 11px;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .contact_tel {
@@ -799,6 +818,7 @@ a.nav_mid_st{
     font-size: 12px;
     line-height: 1.16;
     color: var(--primary-text-color);
+    margin-top: 10px;
 }
 
 .user_tel {
@@ -816,6 +836,9 @@ a.nav_mid_st{
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .user_tel:focus{
@@ -855,6 +878,8 @@ a.nav_mid_st{
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .user_email:focus{
@@ -890,6 +915,8 @@ a.nav_mid_st{
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_coment_area:focus{
@@ -900,18 +927,26 @@ border: 1px solid #2196F3;
 .modal_agree {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
 }
+
 
 .modal_agree_input {
     margin-right: 8.4px;
 }
+
+
+
+
 .modal_agree_text {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+
+
+
+
 .modal_agree_link {
     text-decoration-line: underline;
     color: var(--accent-color);
