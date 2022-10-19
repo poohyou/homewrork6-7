@@ -765,6 +765,21 @@ a.nav_mid_st{
     padding-bottom: 0;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+}
+
+.user_name:focus{
+    outline: none;
+    border: 1px solid #2196F3;
+}
+
+.user_name:focus + .contact_name_img{
+    fill: var(--accent-color);
 }
 
 .contact_name_img {
@@ -795,7 +810,23 @@ a.nav_mid_st{
     padding-bottom: 0;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
 }
+
+.user_tel:focus{
+    outline: none;
+    border: 1px solid #2196F3;
+}
+
+.user_tel:focus + .contact_name_img{
+    fill: var(--accent-color);
+}
+
 .contact_email {
     display: flex;
     flex-direction: column;
@@ -818,7 +849,23 @@ a.nav_mid_st{
     padding-bottom: 0;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
 }
+
+.user_email:focus{
+    outline: none;
+    border: 1px solid #2196F3;
+}
+
+.user_email:focus + .contact_name_img{
+    fill: var(--accent-color);
+}
+
 
 .modal_coment {
     display: flex;
@@ -838,10 +885,16 @@ a.nav_mid_st{
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
-    letter-spacing: 0.01em;
-    color: var(--primary-text-color);
+}
+
+.modal_coment_area:focus{
+outline: none;
+border: 1px solid #2196F3;
 }
 
 .modal_agree {
