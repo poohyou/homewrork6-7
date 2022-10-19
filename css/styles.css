@@ -617,12 +617,16 @@ a.nav_mid_st{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    cursor: pointer;
 
     border: 0;
     width: 200px;
     height: 50px;
     border-radius: 4px;
     background-color: var(--accent-color);
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .fotter_subscribe_btn:hover {
