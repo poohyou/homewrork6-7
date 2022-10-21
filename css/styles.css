@@ -411,7 +411,7 @@ img {
     padding-bottom: 94px;
 
 }
-.team_title{
+.team__title{
     font-size: 36px;
     line-height: 1.2;
     display: block;
@@ -419,43 +419,59 @@ img {
     margin-bottom: 50px;
     padding-top: 94px;
 }
-.team_group {
+
+.team__group {
     display: flex;
     gap: 30px;
 }
-.team_group_box {
+
+.team__box {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team_info {
-    padding-top: 30px;
+.team__info {
     text-align: center;
+    padding-top: 30px;
+}
+
+.team__info--dec {
     background-color: var(--white-color);
 }
 
-.team_name{
-    font-weight: 500;
+.team__name {
+    margin-bottom: 10px;
+}
+
+.team__name--dec {
     font-size: 16px;
     line-height: 1.2;
-    margin-bottom: 10px;
-    
+    font-weight: 500;
 }
-.team_job{
+
+.team__job {
+    text-align: center;
+}
+
+.team__job--dec {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
 }
-.team_icons {
-    padding-bottom: 41px;
+/* ==========SOCIALS */
+
+.socials {
     display: flex;
-    margin-top: 16px;
     justify-content: center;
     gap: 10px;
 }
 
-.team_icons_link {
+.socials--dec {
+    padding-bottom: 41px;
+    margin-top: 16px;
+}
+
+.socials__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -465,20 +481,21 @@ img {
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team_icons_link:hover,
-.team_icons_link:focus {
+
+.socials__link:hover,
+.socials__link:focus {
     background-color: var(--accent-color);
 }
 
-.team_icons_group {
+.socials__icons {
     width: 20px;
     height: 20px;
     fill: var(--social-icons);
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team_icons_link:hover .team_icons_group,
-.team_icons_link:focus .team_icons_group {
+.socials__link:hover .socials__icons,
+.socials__link:focus .socials__icons {
     fill: var(--white-color);
 }
   /* ============================TEAM SECTION ==========================*/
