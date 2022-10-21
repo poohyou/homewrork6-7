@@ -501,18 +501,20 @@ img {
   /* ============================TEAM SECTION ==========================*/
 
   /* ===========================OUR CLIENTS ===========================*/
-.clients_title {
-    font-size: 36px;
-    line-height: 1.2;
-    display: block;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.client_conteiner {
+  .client {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.client_img_block {
+
+  .client__title {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+.client__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -520,23 +522,24 @@ img {
     
 }
 
-.client_img {
+.client__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 32px;
     padding-right: 32px;
     width: 170px;
     height: 92px;
     fill: var(--social-icons);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    cursor: pointer;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client_img:hover,
-.client_img:focus {
+.client__img:hover,
+.client__img:focus {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
     border-radius: 4px;
