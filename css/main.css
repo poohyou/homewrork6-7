@@ -367,7 +367,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.modal_button_submit {
+.modal__btn {
   display: block;
   margin: auto;
   width: 200px;
@@ -680,7 +680,6 @@ img {
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .client__list {
