@@ -14,14 +14,20 @@
     --bckground-color: #2F303A;
     --social-icons: #AFB1B8
 }
+
+
+.html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'roboto';
     font-style: normal;
     font-weight: 400;
     color: var(--title-text-color);
-
-    /* Убрал точки и подчеркивания */
 }
+
+
 li{
     list-style: none;
 }
@@ -81,6 +87,7 @@ img {
     display: flex;
     align-items: center;
 }
+
 .conteiner-header--border {
     border-bottom: 1px solid #ECECEC;
 }
