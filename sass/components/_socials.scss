@@ -1,0 +1,39 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials--dec {
+    padding-bottom: 41px;
+    margin-top: 16px;
+}
+
+.socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials__link:hover,
+.socials__link:focus {
+    background-color: var(--accent-color);
+}
+
+.socials__icons {
+    width: 20px;
+    height: 20px;
+    fill: var(--social-icons);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials__link:hover .socials__icons,
+.socials__link:focus .socials__icons {
+    fill: var(--white-color);
+}

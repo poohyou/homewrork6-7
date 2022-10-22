@@ -1,0 +1,37 @@
+.peculiarity {
+    display: flex;
+}
+
+.peculiarity-group {
+    padding-top: 94px;
+    padding-bottom: 47px;
+    gap: 30px;
+}
+
+.peculiarity__img {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.peculiarity__img--dec {
+    background-color: var(--bck-portfolio);
+    width: 270px;
+    height: 120px;
+}
+          
+.peculiarity__title {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.peculiarity__text {
+    width: 255px;
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
