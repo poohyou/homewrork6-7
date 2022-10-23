@@ -453,7 +453,6 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/hero.png);
   background-size: cover;
 }
-
 .hero__title {
   text-align: center;
   width: 696px;
@@ -463,8 +462,7 @@ img {
   color: var(--white-color);
   margin-bottom: 30px;
 }
-
-.btn__hero {
+.hero__btn {
   width: 216px;
   height: 50px;
 }
@@ -472,34 +470,30 @@ img {
 .peculiarity {
   display: flex;
 }
-
 .peculiarity-group {
   padding-top: 94px;
   padding-bottom: 47px;
   gap: 30px;
 }
-
 .peculiarity__img {
   display: flex;
-  padding-left: 100px;
-  padding-right: 100px;
   justify-content: center;
   align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
-
 .peculiarity__img--dec {
   background-color: var(--bck-portfolio);
   width: 270px;
   height: 120px;
 }
-
 .peculiarity__title {
   font-size: 14px;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-
 .peculiarity__text {
   width: 255px;
   color: var(--primary-text-color);
