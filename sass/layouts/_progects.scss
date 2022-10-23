@@ -1,15 +1,15 @@
 .progect__title {
     display: block;
     text-align: center;
-}
 
-.progect__title--dec {
+
+    &--dec {
     font-size: 36px;
     line-height: 1.2;
     padding-top: 47px;
     margin-bottom: 50px;
+    }
 }
-    
 
 .progect__img {
     display: flex;
@@ -19,6 +19,7 @@
 .progect__scrin {
     position: relative;
 }
+
 .progect__text {
     display: flex;
     justify-content: center;
@@ -29,13 +30,14 @@
     letter-spacing: 0.03em;
 
     padding: 27px 10px;
-}
 
-.progect__text--dec {
+
+    &--dec {
     width: 100%;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     color: var(--white-color);
     background: rgba(47, 48, 58, 0.8);
+    }
 }

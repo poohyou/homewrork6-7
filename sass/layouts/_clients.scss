@@ -1,25 +1,24 @@
 .client {
     padding-top: 94px;
-}
 
-  .client__title {
+
+    &__title {
     display: block;
     text-align: center;
     font-size: 36px;
     line-height: 1.2;
     margin-bottom: 50px;
-}
+    }
 
-.client__list {
+    &__list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;   
-    padding-bottom: 94px;
-    
-}
+    padding-bottom: 94px;  
+    }
 
-.client__img {
+    &__img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,11 +32,13 @@
     cursor: pointer;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    }
 
-.client__img:hover,
-.client__img:focus {
-    fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
+       &__img:hover,
+       &__img:focus {
+       fill: var(--accent-color);
+       border: 1px solid var(--accent-color);
+       border-radius: 4px;
+       }
+
 }
