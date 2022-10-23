@@ -23,26 +23,25 @@
     font-style: normal;
     display: block;
     margin-right: 70px;
-}
-.address__list:not(:last-child) {
-    margin-bottom: 9px;
-}
-.address__city {
-    color: var(--white-color);
-}
-.address__link{
-    color: rgba(255, 255, 255, 0.6);
-}
-.address__phone {
-    color: rgba(255, 255, 255, 0.6);
-}
 
+
+
+    &__list:not(:last-child) {
+    margin-bottom: 9px;
+    }
+    &__city {
+    color: var(--white-color);
+    }
+    &__link{
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .address__phone {
+    color: rgba(255, 255, 255, 0.6);
+    }
+}
 /* =======Socials footer */
 
-.socials-footer {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .footer__title {
     padding-top: 12px;
@@ -52,28 +51,33 @@
     margin-bottom: 20px;
 }
 
-.socials-footer__link--dec {
+
+.socials-footer {
+    display: flex;
+    flex-direction: column;
+
+    &__link--dec {
     background: rgba(255, 255, 255, 0.1);
-}
+    }
 
-.socials-footer__icons--dec {
+    &__icons--dec {
     fill: var(--white-color);
+    }
 }
-
 /* ======== */
 
 
 .subscribe {
     margin-left: 93px;
-}
 
 
+     
 
-.subscribe__group {
+    &__group {
     display: flex;
-}
+     }
 
-.subscribe__email {
+    &__email {
     width: 358px;
     height: 50px;
     padding: 15px 16px;
@@ -90,13 +94,13 @@
     border-radius: 4px;
     background-color: var(--bckground-color);
     outline: none;
-}
+    }
 
-.subscribe__email:focus {
-    border: 1px solid var(--accent-color)
-}
+        &__email:focus {
+        border: 1px solid var(--accent-color)
+        }
 
-.subscribe_btn {
+    &__btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,4 +109,6 @@
     letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
+    }
+
 }
